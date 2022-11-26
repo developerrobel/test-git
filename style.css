@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.price-section{
+    background: #f6f9fc;
+}
+.price-content h2{
+    position: relative;
+    padding-bottom: 10px;
+}
+.price-content h2::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: blue;
+    width: 40px;
+    height: 2px;
+}
+.price-content p{
+    color: #767676;
+   
+}
